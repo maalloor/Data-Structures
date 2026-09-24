@@ -1,13 +1,4 @@
-"""
-Binary Tree implemented with linked nodes.
-No lists, dicts, tuples, or the collections module.
-
-For the level-order traversal (BFS) we use our own Deque class as
-an auxiliary queue, instead of a Python list.
-"""
-
 from deque import Deque
-
 
 class _TreeNode:
     """Binary tree node: a value and two references, left and right."""
